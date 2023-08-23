@@ -2,7 +2,7 @@ package day03_comments_variables;
 
 public class C01_Comments {
     public static void main(String[] args){
-        //source code kaynak codu .java
+        //source code kaynak kodu .java
         //ekrana, consola Hello World! yazdir
         System.out.print("Hello World!");
         System.out.print("Hello World!");
