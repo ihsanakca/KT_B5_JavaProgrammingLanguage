@@ -29,12 +29,6 @@ public class C01_PrimitiveDataTypes {
 
         //byte, short, int, long degiskenlerin default degerleri int
 
-
-
-
-
     }
-
-
 
 }
