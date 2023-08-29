@@ -29,5 +29,6 @@ public class C04_ScannerIntro {
         System.out.println("gectiKaldi = " + gectiKaldi);
 
         System.out.println("kimyaNotu = " + kimyaNotu);
+
     }
 }
