@@ -6,8 +6,5 @@ public class C04_HelloWorldString {
 
         String message = "Hello World!";   // variable names both primitive and non primitive starts with small lowercase
         System.out.println(message);
-
-
     }
-
 }
