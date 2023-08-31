@@ -1,0 +1,61 @@
+Day 09
+
+
+    Operators:
+
+    Arithmetic Operators (+-*/%)   --done
+    Unary Operators (+,-,++,--)
+    ShorthandOperators (=,+=,-=,*=,/=,%=)
+    Relational Operators (>,<,<=,>=,==,!=)
+
+    Unary Operators:
+            	++: increase the value by 1.
+            	-- : decreases the value by 1.
+
+            	Post vs Pre:
+                        		Pre : changes the value immediately
+                        				++ a
+                        				-- a
+
+                        		post: changes the value in the second step.
+                        				a ++
+                        				a --
+
+                 Assignments operator          Shorthand operator
+                            x=x+y                              x+=y
+                            x=x-y                              x-=y
+                            x=x*y                              x*=y
+                            x=x/y                              x/=y
+                            x=x%y                              x%=y
+                            x=y                                x=y
+
+
+    //scanner.next() ilk space/bosluga kadar olan degerleri alir
+    //scanner.nextLine() ilk Entera kadar olan degerleri alir
+
+     int x = 900;
+                x+=100; // x = x + 100;
+            	x = 1000
+
+            String str = "Java";
+                str += " Programming"; // str = str +" Programming"
+
+
+            String str1 = "I love ";
+                str1+="Java ";   // str1 = str1 + "Java ";
+
+
+            int y = 1000;
+                y = y - 100;
+                y-=100;
+
+            int z = 2
+                z = z*2;
+                z *= 2;
+
+
+            Operators:
+            	+, -, *, /, %
+            	++, --
+            	=, +=, -=
+            	>, <, >=, <=, ==, !=
