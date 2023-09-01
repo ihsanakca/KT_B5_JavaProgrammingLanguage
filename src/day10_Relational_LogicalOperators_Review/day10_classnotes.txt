@@ -1,0 +1,44 @@
+Day 10
+
+
+
+        Relational Operators
+                Relational Operators (>,<,>=,<=,==,!=)
+
+                boolean result7 = "Java"=="Java";
+               // STRINGLERI KARSILASTIRMADA == OPERATORU KULLANILMAZZZZZZ!!!!!!
+
+               String Clasinin kendine has methodlari var onlarla karsilastirma islemi yapilir.Sonra cok
+               detayli olarak
+               gorecegiz
+
+               citizenship.equals("Turkish")
+
+               && AND VE
+                   both
+                   in logical operator, both expression should be true to return true;
+
+               || OR Veya
+                   either
+                   only one expression needs to be true to return true.
+                   if || returns false, both expresions are false
+
+               ^ : X-OR Yada
+                   returns true if both sides are not same (XOR - FARKLIYSAN KAZANIRSIN)
+
+                   false ^ false = false
+                   false ^ true  = true
+                   true ^ false  = true
+                   true ^ true   = false
+
+
+                   Tasks:
+                   1. /*
+                      1. Get name and age from the user, declare a variable (byte) age, write a program that can check if the
+                      person is eligible to buy Cigarettes. In USA it is illegal to sell tabacco under age 21.
+                      print console : Ahmet is eligible to buy cigarettes: true/false
+                       */
+                   2. Day08_09 daki kalan tum tasklar yapilacak studyRoom 3 e atilacak.
+                   3. Mutlaka kapsamli bir tekrar yapip, pazartesini eksiksiz olarak baslayalim. Iyi calismalar, iyi hafta sonlari.
+
+
