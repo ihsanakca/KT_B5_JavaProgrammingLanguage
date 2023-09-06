@@ -1,0 +1,86 @@
+Day 13
+
+        Review
+        Single if : for one condition
+            if(condition){
+              Statement A
+            }
+
+        if & else : where there are two options / conditions/ possibilities (not more than 3 not lessthan 2 conditions)
+
+            if(Condition){
+            Statement A;
+            Statement B;
+           }else {
+           Statement C;
+           Statement D;
+           }
+
+           Statement A, B : if condition is true
+           Statement C, d : if condition is false
+
+           if()
+           statementA;
+           else
+           statementB;
+
+           Multi-Branch if: when there are three or more options
+
+           if(condition1){
+           Statement A;
+           } else if(condition2){
+           Statement B;
+           } else {
+            Statement C
+           }
+
+           Only one Block gets executed.
+
+           Statement A: Condition1 must be True
+           Statment  B: Condition1 Must be false, Condition2 Must be True
+           Statement C: Condition1 & Condition2 Must be false
+
+           Ternary Operator: (condition) ? (return if true) :(return if false);
+           //                  num%2==0  ? "Cift Sayi"  : "Tek Sayi"
+                             (condition) ? (return if true)  : (Ternary)
+
+           Switch Statement : switch, case, break, default
+
+           syntax:
+            switch(Data){
+
+              case data1:
+                   Statements;
+                  break;
+              case data2:
+                      Statements;
+                      break;
+
+              default :
+                      Statements;
+
+            }
+
+        Case value Must match with Switch data type and Unique
+        Switch Data can not be Long float double boolean data types
+        break: used for exiting the switch
+               if we dont use break statement, switch statment cont to execute the blocks until next break
+        default: block get executed if none of the case matches
+
+        For Loop
+
+            Java for loop is used to run a block of code for a certain number of times. The syntax of for loop is:
+
+            for (initialization; conditional; increment/decrement) {
+                // body of the loop
+                }
+
+            The initialExpression initializes and/or declares variables and executes only once.
+            The condition is evaluated. If the condition is true, the body of the for loop is executed.
+            The updateExpression updates the value of initialExpression.
+            The condition is evaluated again. The process continues until the condition is false.
+
+        Odevler: Nested For loopa kadar yapilan yapilmayan tum Tasklar kendiniz hic birseye bakmadan yazmaya calisin!
+               : If Tasks for Control Flow Statements Hafta sonuna kadar yapin;
+
+
