@@ -68,6 +68,22 @@ public class C06_LogicalOperators {
         System.out.println("isPassed = " + isPassed);
         System.out.println("isFailed = " + isFailed);
 
+/*
+OR Operator
+        Conditions        True   ||    True    ------  TRUE
+                          True   ||    False   ------  TRUE
+                          False  ||    True  -  -----  TRUE
+                          False  ||    False   ------   FALSE
 
+
+ AND Operator
+        Conditions        True   &&    True    ------  TRUE
+                          True   &&    False   ------  FALSE
+                          False  &&    True  -  -----  FALSE
+                          False  &&    False   ------  FALSE
+
+
+ */
+        //
     }
 }
