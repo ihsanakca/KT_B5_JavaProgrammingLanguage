@@ -11,13 +11,14 @@ public class C03_Faktoriyel {
 
     /**
      * This method returns the faktorial value of a given number
+     *
      * @param sayi
      * @return
      */
-    public static double faktoriyel(int sayi){
-        double faktoriyel=1;
-        for (int i = 1; i <=sayi ; i++) {
-              faktoriyel *=i;
+    public static double faktoriyel(int sayi) {
+        double faktoriyel = 1;
+        for (int i = 1; i <= sayi; i++) {
+            faktoriyel *= i;
         }
         return faktoriyel;
     }

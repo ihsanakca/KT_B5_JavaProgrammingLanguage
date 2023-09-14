@@ -8,9 +8,9 @@ public class C02_PracticeTasks_Return {
         System.out.println("---------------------");
         System.out.println("evenNumbers() = " + evenNumbers());
         System.out.println("---------------------");
-        if(isEligibleToBuyAlhocol(23)){
+        if (isEligibleToBuyAlhocol(23)) {
             System.out.println("Ne vereyim abimee...");
-        }else {
+        } else {
             System.out.println("De get...");
         }
         System.out.println("---------------------");
@@ -21,12 +21,13 @@ public class C02_PracticeTasks_Return {
 
     /**
      * this method returns to the odd numbers btw 1-100
+     *
      * @return
      */
-    public static String oddNumbers(){
-        String result="";
-        for (int i = 1; i <=100 ; i+=2) {
-            result+=i+" "; // result = result + i +" ";
+    public static String oddNumbers() {
+        String result = "";
+        for (int i = 1; i <= 100; i += 2) {
+            result += i + " "; // result = result + i +" ";
         }
 
         return result;
@@ -34,12 +35,13 @@ public class C02_PracticeTasks_Return {
 
     /**
      * this method returns to the even numbers btw 1-100
+     *
      * @return
      */
-    public static String evenNumbers(){
-        String result="";
-        for (int i = 2; i <=100 ; i+=2) {
-            result+=i+" "; // result = result + i +" ";
+    public static String evenNumbers() {
+        String result = "";
+        for (int i = 2; i <= 100; i += 2) {
+            result += i + " "; // result = result + i +" ";
         }
 
         return result;
@@ -47,12 +49,12 @@ public class C02_PracticeTasks_Return {
 
     //	3. create a method that can check if a person is eligible to buy alcohol
 
-    public static boolean isEligibleToBuyAlhocol(int age){
-        boolean isEligible=false;
-        if(21<=age){
-            isEligible=true;
-        }else {
-            isEligible=false;
+    public static boolean isEligibleToBuyAlhocol(int age) {
+        boolean isEligible = false;
+        if (21 <= age) {
+            isEligible = true;
+        } else {
+            isEligible = false;
         }
 
         return isEligible;
@@ -62,40 +64,42 @@ public class C02_PracticeTasks_Return {
 
     /**
      * method returns the area of a circle with given radius
+     *
      * @param radius
      * @return
      */
-    public static double areaOfCircle(int radius){
-      double area;
-      area = (3.14) *radius*radius;
-      return area;
+    public static double areaOfCircle(int radius) {
+        double area;
+        area = (3.14) * radius * radius;
+        return area;
 
     }
 
     /**
      * method returns the perimeter of a circle with given radius
+     *
      * @param radius
      * @return
      */
-    public static double perimeterOfCircle(int radius){
+    public static double perimeterOfCircle(int radius) {
         double perimeter;
-        perimeter = 2*(3.14) *radius;
+        perimeter = 2 * (3.14) * radius;
         return perimeter;
 
     }
 
     /**
      * method returns the area of a square with given side
+     *
      * @param side
      * @return
      */
-    public static int areaOfSquare(int side){
+    public static int areaOfSquare(int side) {
         int area;
-        area = side*side;
+        area = side * side;
         return area;
 
     }
-
 
 
 }

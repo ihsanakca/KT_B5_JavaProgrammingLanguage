@@ -1,11 +1,12 @@
 Day 19
 
+        Return Methods- Method Overloading
 
 
             /** + Enter --> method description
 
             Baska bir classin metodunu cagirirken,
-            bulundugumuz classda
+            bulundugumuz classta
             ClassAdi.methodIsmi() yazarak cagirabiliriz. (public) (private ise cagiramayiz)
 
             Method Overloading:

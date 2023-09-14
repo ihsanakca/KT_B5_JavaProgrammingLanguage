@@ -8,13 +8,11 @@ public class C04_MethodCalling {
         System.out.println("Lutfen Faktoriyeli hesaplanacak sayiyi giriniz");
         int num = scanner.nextInt();
 
-        if(num<0){
+        if (num < 0) {
             System.err.println("Lutfen 0 yada pozitif sayi giriniz!");
-        }else {
+        } else {
             System.out.println("C03_Faktoriyel.faktoriyel(num) = " + C03_Faktoriyel.faktoriyel(num));
         }
-
-
 
 
     }
