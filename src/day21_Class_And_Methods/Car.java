@@ -8,7 +8,7 @@ public class Car {
 
           */
     String marka;
-    String model;
+    public String model;
     String renk;
     int hız;
 

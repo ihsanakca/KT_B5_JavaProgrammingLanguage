@@ -9,7 +9,7 @@ public class Person {
     String gender;
     int age;
     String tcNo;
-    double yılSonuOrtalama;
+     double yılSonuOrtalama;
 
 
     public void uyu(){

@@ -50,7 +50,7 @@ public class Main {
         Methods calistir, hizlan, dur
         Javada Car class oluşturun?
 
-         */
+
 
         Car car1=new Car();
         car1.marka="Honda";
@@ -78,8 +78,53 @@ public class Main {
         int n=5;
         String str="Ahmet";
         System.out.println("str = " + str);
+        */
+
+        String str=new String();
+        str="Ahmet";
+        String str1= new String();
+        str1="Ahmet";
+
+        System.out.println(str==str1);
 
 
+        //     stack   heap
+        Person ahmet=new Person();
+        ahmet.name="Ahmet";
+        System.out.println("ahmet = " + ahmet);//day21_Class_And_Methods.Person@2d98a335
+
+        //     stack     heap
+        Person mehmet=new Person();
+        mehmet.name="Mehmet";
+        System.out.println("mehmet = " + mehmet);//day21_Class_And_Methods.Person@16b98e56
+
+        System.out.println(mehmet==ahmet);
+
+
+        ahmet= mehmet;//day21_Class_And_Methods.Person@16b98e56
+        mehmet.name="mustafa";
+
+        System.out.println("ahmet.name = " + ahmet.name);
+
+/*
+
+        Circle circle1=new Circle();
+        System.out.println("circle1.r = " + circle1.r);
+        System.out.println("circle1.pi = " + circle1.pi);
+     //   System.out.println("circle1.b = " + circle1.b);
+
+        circle1.r=5;
+
+        circle1.getArea();
+        System.out.println("circle1.getPerimeter() = " + circle1.getPerimeter());
+
+
+        Circle circle2=new Circle();
+        circle2.r=20;
+        circle2.getArea();
+
+
+*/
     }
 
 }

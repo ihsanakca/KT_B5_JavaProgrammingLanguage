@@ -1,0 +1,10 @@
+Static Non Static -- Methods and variables
+
+    Static Method ve değişkenler -- classa aittir ve class adı ile çağrılabilir
+            Classname.VariableName;
+            Classname.Methodname();
+
+    Static olmayan Method ve Değişkenler -- Nesneye aittir ve Nesne oluşturulmadan çağrılamaz
+            ClassName cls=new ClassName();
+            cls.VariableName;
+            cls.MethodName();
