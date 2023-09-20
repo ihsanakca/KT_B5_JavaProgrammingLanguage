@@ -7,10 +7,12 @@ public class Car {
          Javada Car class oluşturun?
 
           */
-    String marka;
+    public String marka;
     public String model;
-    String renk;
-    int hız;
+    public String renk;
+    public int hız;
+
+    public boolean isElectrical;
 
     public void calistir(){
         System.out.println(model+ "   çalıştı");
@@ -21,4 +23,8 @@ public class Car {
     public void dur(){
         System.out.println(model+"  durdu");
     }
+
+
 }
+
+
