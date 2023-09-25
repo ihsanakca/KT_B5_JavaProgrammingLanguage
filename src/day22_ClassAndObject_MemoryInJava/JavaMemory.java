@@ -28,6 +28,9 @@ public class JavaMemory {
         Car car1=new Car();
         car1.model="Str";
 
+        Circle2 circle2=new Circle2();
+        System.out.println("circle2.r = " + circle2.r);
+
 
     }
 

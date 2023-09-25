@@ -1,7 +1,7 @@
 package day22_ClassAndObject_MemoryInJava;
 
 public class Circle2 {
-     static int r;
+    int r;
     //double pi=Math.PI;
     //boolean b;
 
@@ -20,11 +20,11 @@ public class Circle2 {
     public static double getArea2(){
 
         getPerimeter2();
-        return Math.PI*Math.pow(r,2);
+        return Math.PI;
     }
 
     public static double getPerimeter2(){
-        return 2*Math.PI*r;
+        return 2*Math.PI;
     }
 
 }
