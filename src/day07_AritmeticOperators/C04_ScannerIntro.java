@@ -20,7 +20,7 @@ public class C04_ScannerIntro {
         int fizikNotu=scan.nextInt();
         System.out.println("Matematik notu giriniz :");
         int matematikNotu=scan.nextInt();
-        double ortalama=(double) (kimyaNotu+fizikNotu+matematikNotu)/3;
+        double ortalama= (kimyaNotu+fizikNotu+matematikNotu)/3;
         System.out.println("ortalama = " + ortalama);
 
         // 80 üstü geçer.  öğrenci gecer ise true kalır ise false

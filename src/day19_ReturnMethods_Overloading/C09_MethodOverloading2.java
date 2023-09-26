@@ -3,8 +3,10 @@ package day19_ReturnMethods_Overloading;
 public class C09_MethodOverloading2 {
 
     public static void main(String[] args) {
-        calculateArea(3, 5);
-        calculateArea(3);
+        for (int i = 1,j=0; i<10 ; i*=2,j++) {
+            System.out.println(i);
+        }
+
 
     }
 

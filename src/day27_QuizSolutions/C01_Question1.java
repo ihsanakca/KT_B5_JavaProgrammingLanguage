@@ -10,5 +10,7 @@ public class C01_Question1 {
 
         String str = "JavaQuiz";
 
+        //merhaba
+
     }
 }
