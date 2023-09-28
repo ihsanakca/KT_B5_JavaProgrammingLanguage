@@ -3,10 +3,10 @@ package day29_FullReview;
 public class C05_FrequencyOfCharacteres {
     public static void main(String[] args) {
 
-        System.out.println("frequencyOfChar(\"AAAABBBCDD\",'A') = " + frequencyOfChar("AAAABBBCDD", 'A')); //4
+        System.out.println("frequencyOfChar(\"AAAABBBCDD\",'B') = " + frequencyOfChar("AAAABBBCDD", 'B')); //4
         System.out.println("frequencyOfChar(\"!!!!!!!!!!!!asdadadasdasdasd\",'!') = " + frequencyOfChar("!!!!!!!!!!!!asdadadasdasdasd", '!'));
         System.out.println("frequencyOfChar(\"123123123123123asdadasdasdasdv\",'1') = " + frequencyOfChar("123123123123123asdadasdasdasdv", '1'));
-
+        System.out.println("frequencyOfChar(\"AAAABBBCDD\",'F') = " + frequencyOfChar("AAAABBBCDD", 'F'));
     }
 
 
