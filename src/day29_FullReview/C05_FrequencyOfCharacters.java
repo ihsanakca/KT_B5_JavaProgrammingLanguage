@@ -1,6 +1,6 @@
 package day29_FullReview;
 
-public class C05_FrequencyOfCharacteres {
+public class C05_FrequencyOfCharacters {
     public static void main(String[] args) {
 
         System.out.println("frequencyOfChar(\"AAAABBBCDD\",'B') = " + frequencyOfChar("AAAABBBCDD", 'B')); //4
