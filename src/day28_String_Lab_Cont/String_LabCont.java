@@ -128,8 +128,7 @@ public class String_LabCont {
         return result;
     }
 
-
-
+    
     public static void main(String[] args) {
         String str="MerhabababbMrr";
         System.out.println(yenilenenCıkart2(str));
