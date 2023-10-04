@@ -130,6 +130,44 @@ public class C04_Arrays_Methods {
 
 
 
+
+    //İnt array ın elemanlarının toplamını ve çarpımını yeni
+    // bir array içinde döndüren bir method yazın.
+
+
+    public static int [] toplamVeCarpim(int []array){
+        int toplam=0;
+        int carpım=1;
+
+
+
+        for (int i = 0; i < array.length; i++) {
+            toplam+=array[i];
+            carpım*=array[i];
+        }
+
+        int [] newArray=new int[2];
+        newArray[0]=toplam;
+        newArray[1]=carpım;
+
+        return newArray;
+    }
+
+
+
+
+
+    public static int [] toplamVeCarpim2(int []array){ // 23 34  54 65
+        int [] newArray=new int[2];
+        newArray[1]=1;
+        for (int i = 0; i < array.length; i++) {
+            newArray[0]+=array[i];
+            newArray[1]*=array[i];
+        }
+        return newArray;
+    }
+
+
     public static void main(String[] args) {
         // System.out.println("kelimeDepola()[0] = " + kelimeDepola()[0]);
 
@@ -161,11 +199,50 @@ public class C04_Arrays_Methods {
 
 
         System.out.println("arrayToplam(arr1) = " + arrayToplam(arr1));
+
+        System.out.println("---------------");
+
+        System.out.println("Arrays.toString(toplamVeCarpim2(arr1)) = " + Arrays.toString(toplamVeCarpim2(arr1)));
+        System.out.println("---------------");
+        System.out.println("Arrays.toString(arrayBirlestir2(arr1,arr2)) = " + Arrays.toString(arrayBirlestir2(arr1, arr2)));
     }
 
-    //İnt array ın elemanlarının toplamını ve çarpımını yeni
-    // bir array içinde döndüren bir method yazın.
 
+    // Verilen 2 arrayi birleştirip array döndüren bir method yazın.
+
+
+    public static int [] arrayBirlestir(int [] arr1, int []arr2){//  5     3
+        int [] newArray=new int[arr1.length+arr2.length];
+
+        for (int i = 0; i < arr1.length; i++) {
+            newArray[i]=arr1[i];
+        }
+
+        int j=0;
+        for (int i = arr1.length; i < newArray.length; i++) {
+            newArray[i]=arr2[j];
+            j++;
+        }
+
+        return newArray;
+    }
+
+    public static int [] arrayBirlestir2(int [] arr1, int []arr2){
+        int [] newArray=new int[arr1.length+arr2.length];
+
+        for (int i = 0, j=0; i < newArray.length; i++) {
+           if (i<arr1.length){
+               newArray[i]=arr1[i];
+           }else {
+               newArray[i]=arr2[j];
+               j++;
+           }
+        }
+
+
+
+        return newArray;
+    }
 
 
 }
