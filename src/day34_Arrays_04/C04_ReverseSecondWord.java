@@ -12,26 +12,7 @@ public class C04_ReverseSecondWord {
 
     }
 
-    public static String reverseSecondWord2(String str){ // I love Java
-        String result ="";
-        String[] words = str.split(" ");//["I","love","Java]
-        //words[1] String Love
-        String reversed=""; // evoL
-        for (int i = words[1].length()-1; 0<=i ; i--) {
-            reversed+=words[1].charAt(i);
-        }
-        words[1]=reversed;           // ["I","evoL","Java]
-
-        for (String word : words) {
-           result+=word+" ";
-        }
-        return result; // I evoL Java
-    }
-
-
-
-
-    public static String reverseSecondWord(String str){
+     public static String reverseSecondWord(String str){
         String reversed="";
         String result="";
         reversed = reverseSentence(str);
@@ -64,6 +45,22 @@ public class C04_ReverseSecondWord {
         return result;
     }
 
+    public static String reverseSecondWord2(String str){ // I love Java
+        String result ="";
+        String[] words = str.split(" ");//["I","love","Java]
+        //words[1] String Love
+        String reversed=""; // evoL
+        for (int i = words[1].length()-1; 0<=i ; i--) {
+            reversed+=words[1].charAt(i);
+        }
+        words[1]=reversed;           // ["I","evoL","Java]
+
+        for (String word : words) {
+            result+=word+" ";
+        }
+        return result; // I evoL Java
+    }
+
 
 
 }
@@ -75,8 +72,8 @@ Write a program that can reverse the second word of the sentence
 			output:
 				Java evoL I
 
-    1		Ex:
+    2		Ex:
     sentence = "I Love Java";
         output:
-              I evoL Java
+                I evoL Java
  */
