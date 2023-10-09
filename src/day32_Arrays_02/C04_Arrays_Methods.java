@@ -168,44 +168,7 @@ public class C04_Arrays_Methods {
     }
 
 
-    public static void main(String[] args) {
-        // System.out.println("kelimeDepola()[0] = " + kelimeDepola()[0]);
 
-        int [] arr1;
-        arr1=new int[6];
-        arr1[0]=23;
-        arr1[1]=34;
-        arr1[2]=54;
-        arr1[3]=27;
-        arr1[4]=89;
-        arr1[5]=89;
-
-
-
-        int [] arr2;
-        arr2=new int[4];
-        arr2[0]=232;
-        arr2[1]=343;
-        arr2[2]=543;
-        arr2[3]=273;
-        System.out.println("uzunlukKontrol(arr1) = " + uzunlukKontrol(arr1));
-
-        System.out.println(sayiKontrol2(arr1, 23));
-        System.out.println("ilkElemanEsitMi(arr1,arr2) = " + ilkElemanEsitMi(arr1, arr2));
-
-        System.out.println("Arrays.toString(newArray(arr1,arr2)) = " + Arrays.toString(newArray(arr1, arr2)));
-
-        System.out.println("---------------");
-
-
-        System.out.println("arrayToplam(arr1) = " + arrayToplam(arr1));
-
-        System.out.println("---------------");
-
-        System.out.println("Arrays.toString(toplamVeCarpim2(arr1)) = " + Arrays.toString(toplamVeCarpim2(arr1)));
-        System.out.println("---------------");
-        System.out.println("Arrays.toString(arrayBirlestir2(arr1,arr2)) = " + Arrays.toString(arrayBirlestir2(arr1, arr2)));
-    }
 
 
     // Verilen 2 arrayi birleştirip array döndüren bir method yazın.
@@ -245,4 +208,54 @@ public class C04_Arrays_Methods {
     }
 
 
+    public static void main(String[] args) {
+        // System.out.println("kelimeDepola()[0] = " + kelimeDepola()[0]);
+
+        int [] arr1;
+        arr1=new int[6];
+        arr1[0]=23;
+        arr1[1]=34;
+        arr1[2]=54;
+        arr1[3]=27;
+        arr1[4]=89;
+        arr1[5]=89;
+
+
+
+        int [] arr2;
+        arr2=new int[4];
+        arr2[0]=232;
+        arr2[1]=343;
+        arr2[2]=543;
+        arr2[3]=273;
+        System.out.println("uzunlukKontrol(arr1) = " + uzunlukKontrol(arr1));
+
+        System.out.println(sayiKontrol2(arr1, 23));
+        System.out.println("ilkElemanEsitMi(arr1,arr2) = " + ilkElemanEsitMi(arr1, arr2));
+
+        System.out.println("Arrays.toString(newArray(arr1,arr2)) = " + Arrays.toString(newArray(arr1, arr2)));
+
+        System.out.println("---------------");
+
+
+        System.out.println("arrayToplam(arr1) = " + arrayToplam(arr1));
+
+        System.out.println("---------------");
+
+        System.out.println("Arrays.toString(toplamVeCarpim2(arr1)) = " + Arrays.toString(toplamVeCarpim2(arr1)));
+        System.out.println("---------------");
+        System.out.println("Arrays.toString(arrayBirlestir2(arr1,arr2)) = " + Arrays.toString(arrayBirlestir2(arr1, arr2)));
+
+        System.out.println("Arrays.toString(fkdj(arr1)) = " + Arrays.toString(fkdj(arr1)));
+
+    }
+    public static int [] fkdj(int []arr){
+        Arrays.sort(arr);
+        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
+        Arrays.fill(arr,1,arr.length,arr[0]);
+
+
+
+        return arr;
+    }
 }

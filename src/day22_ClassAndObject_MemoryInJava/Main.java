@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Circle2 circle2=new Circle2();
+        System.out.println("circle2 = " + circle2);
         circle2.r=5;
        // circle2.getArea();
         circle2.getPerimeter();

@@ -1,5 +1,7 @@
 package day31_Arrays_01;
 
+import java.util.Scanner;
+
 public class C02_Array_1 {
 
     public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class C02_Array_1 {
 
         System.out.println("x = " + x);
 
-
+        Scanner scanner=new Scanner(System.in);
 
         String [] str=new String[4];
         str[0]="Hatice";
