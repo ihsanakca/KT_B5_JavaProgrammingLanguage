@@ -25,3 +25,12 @@ day 38
                     lastIndexOf(Data)   : returns the last matching  element's index
                     contains(Data)      : returns true if the element is in the arraylist otherwise false if not
                     equals(Arraylist)   : returns true if two arraylists are equal (same elemets in same order), otherwise false
+
+
+                public static void main(String[] args) {
+                }
+
+                Ozel bir method
+                args arguments kisaltilmisi
+                String[] arg
+                Bu argumanlar disardan girinlen veriler
