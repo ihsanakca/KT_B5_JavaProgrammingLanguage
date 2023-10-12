@@ -1,4 +1,4 @@
- Constructor Overloading
+ Day39-Constructor Overloading
     Review :
         Constructor : A special Method
 
@@ -51,3 +51,23 @@
              4. Constructor can not call
              5. Constructor can not call itself
 
+
+        OOP: Object Oriented Programming
+                1-Encapsulation
+                2-Inheritance
+                3-Abstraction
+                4-Polymorhism
+
+
+        Encapsulation :
+            Access Modifiers:
+                public      :Always accesible at any where
+                protected   :Always visible within same package. Accesible outside to sub classes only(inheritance)
+                default     :Always visible within same package. Not accesible from outside packages
+                private     :Visible within same class ONLY
+
+
+
+                Encapsulation:   Hiding Data by giving private access modifier
+                                 use public getter&setter methods to read/write the data
+                                 TO HAVE COMPLETE CONTROL OF DATA
