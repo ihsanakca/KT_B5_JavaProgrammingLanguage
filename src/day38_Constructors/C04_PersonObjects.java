@@ -19,6 +19,9 @@ public class C04_PersonObjects {
         person2.gender='m';
         System.out.println(person2);
 
+        Person person3 = new Person();
+
+
 //
 //        person1.name="Atakan";
 //        person1.gender='m';

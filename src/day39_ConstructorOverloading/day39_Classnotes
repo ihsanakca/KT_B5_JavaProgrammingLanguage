@@ -1,0 +1,53 @@
+ Constructor Overloading
+    Review :
+        Constructor : A special Method
+
+        Class Car{
+
+        String brand;
+        String model = "TOGG";
+        int speed;
+
+
+        public Car(){
+
+
+        }
+
+
+        public Car(String brand){  //  no return type
+
+            this.brand = brand
+
+        }
+
+        public Car(String brand, String model){  //  no return type
+
+
+                    // this.model =  model;
+                    this(brand);  // call the upper constructor
+                    this.model =  model;
+
+                }
+
+
+        }
+
+
+        public void speedUp(int speed){
+
+          this.speed = speed;
+          this()  ////////// CAN NOT CALL A CONSTRUCTOR FROM A METHOD
+        }
+
+        this. to call instance variables, or instance methodu
+        this() : used for calling constructors
+
+
+        Constructor Call:
+             1. Constructor can not be called by its name, this() need to be used
+             2. Only a constructor can call a Constructor
+             3. Constructor mus be called first, should be on the first step
+             4. Constructor can not call
+             5. Constructor can not call itself
+
