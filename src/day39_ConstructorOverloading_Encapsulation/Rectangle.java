@@ -1,4 +1,4 @@
-package day39_ConstructorOverloading;
+package day39_ConstructorOverloading_Encapsulation;
 
 public class Rectangle {
 
