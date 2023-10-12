@@ -1,6 +1,7 @@
 package day39_ConstructorOverloading_Encapsulation;
 
 public class Car {
+//    private String SaseNo;
     String marka; //default
     String model;
     String renk;
