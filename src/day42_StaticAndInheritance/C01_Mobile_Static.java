@@ -1,7 +1,9 @@
 package day42_StaticAndInheritance;
 
+import day43_Inheritance_AccessModifiers.C03_Demo;
+
 public class C01_Mobile_Static {
-    String brand;
+    protected String brand;
     int price;
     static String name; // bütün objeler için ortak hale getirdik
 

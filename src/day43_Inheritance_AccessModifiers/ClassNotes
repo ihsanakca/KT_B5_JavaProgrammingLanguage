@@ -1,0 +1,17 @@
+OOP
+   1. Encapsulation  --  private - getter and setter  -- data hiding
+   2. Inheritance  -- is a relationship- extends -- parent-child -- overriding
+   3. Abstraction
+   4. Polymorphism
+
+
+   ACCESS MODIFIERS
+
+                                    PUBLIC          PRIVATE         PROTECTED           DEFAULT
+      1. SAME CLASS                   YES              YES              YES                YES
+
+      2. SAME PACKAGE                 YES              NO               YES                YES
+
+      3. DIFFERENT PACKAGE            YES              NO
+            SUBCLASS                                                    YES                 No
+            NON SUBCLASS                                                NO                  No

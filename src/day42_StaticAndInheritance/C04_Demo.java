@@ -32,6 +32,10 @@ public class C04_Demo {
     // multiple Inheritance ---  javada yok  parent - parent >  Child    ---- MÜMKÜN DEĞİL
 
 
+    // is a relation ---
+    // parent - child
+    // super - sub
+    // base - derived
 }
 
 
