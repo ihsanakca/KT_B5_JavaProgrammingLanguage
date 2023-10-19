@@ -138,6 +138,8 @@ ___________________________________________
         				Eagle
         					eat(): eats snake
 
+                        interfaces
+
                         Wild   hunt()
-                        pet    play()
-                        flyinganimals  fly()
+                        Pet    play()
+                        Flyinganimals  fly()
