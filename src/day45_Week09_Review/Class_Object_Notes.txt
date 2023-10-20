@@ -1,0 +1,60 @@
+Class: Where Objects came from
+        A blueprint/Taslak
+
+Object : Instance of a class/Örnek
+        Object is real
+        Objects can not exist without a class
+
+Custom Class:
+	1. Instance variables & instance methods
+Instance Variables: Declared inside the class and outside any methods/blocks
+                    Each Object has a separate copy of the instance variable
+
+Instance Methods: Does not have static keyword
+                  Each Object has a separate copy of the instance methods
+
+
+	2. Constructors
+A special method that every class must have.
+It’s used when we create objects of a class.
+Constructor is a special method that matches the name of the class and has no return type nor a specifier
+
+this. keyword: used for calling the instance variables & instance methods
+this() : used for calling the constructors
+
+Constructor Call:
+		1. Constructor can not be called by its name ( this() need to be used )
+		2. Only a constructor can call another constructor
+		3. Constructor call MUST be at the first step
+		4. One constructor can not call more than one constructor
+		5. Constructor can not call or contain itself
+
+	3. statics
+
+instance: belong to the object
+		each object has its own copy of the instances (can have multiple copies)
+
+
+static: belongs to the class.
+		There is only one copy of statics that's shared by all objects of the class
+
+Static is applicable for the following:
+• Variables
+• Methods
+• Blocks
+• Class
+
+Static Methods: Static methods only accept static members
+
+Instance methods can also access static methods and static variables directly
+In static methods we can not use the “this” keyword
+
+Static Block:
+Static Imports:
+
+
+	4. toString
+	...
+
+
+
