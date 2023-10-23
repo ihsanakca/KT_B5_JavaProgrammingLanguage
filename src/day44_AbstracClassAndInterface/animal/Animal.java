@@ -6,12 +6,13 @@ public abstract class Animal {
 
     private final String breed;
 
-    private final char gender;
+    private char gender;
 
     private int age;
 
     private String size;
 
+    private final String color;
 
     public final static boolean canBreathe;
     static {
@@ -26,22 +27,30 @@ public abstract class Animal {
 
 
     public Animal(String name, String breed, char gender, int age, String size, String color) {
-        this.name = name;
+        //this.name = name;
+        setName(name);
         this.breed = breed;
-        this.gender = gender;
+        if(!(gender=='M'||gender=='m'|| gender=='F'|| gender=='f')){
+            System.err.println("Invalid Gender "+gender);
+        }else {
+            this.gender = gender;
+        }
         setAge(age);
         this.size = size;
         this.color = color;
     }
 
-    private final String color;
 
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
-        this.name = name;
+       if(name.isEmpty()||name.isBlank()){
+           System.err.println("Invalid Name");
+       }else {
+           this.name= name;
+       }
     }
 
     public String getBreed() {
