@@ -16,5 +16,6 @@ public class C20_Demo {
         ucgen.yukseklik=10;
         System.out.println("ucgen.alanHesapla() = " + ucgen.alanHesapla());
 
+
     }
 }
