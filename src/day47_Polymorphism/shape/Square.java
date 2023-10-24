@@ -9,26 +9,26 @@ public class Square extends Shape {
     }
 
     public void setSide(double side) {
-        if(side<0){
-            System.err.println("Invalid Side Length "+side);
-        }else {
-            this.side=side;
+        if (side < 0) {
+            System.err.println("Invalid Side Length " + side);
+        } else {
+            this.side = side;
         }
     }
 
     public Square(double side) {
         super("Square");
-       setSide(side);
+        setSide(side);
     }
 
     @Override
     public double area() {
-        return side*side;
+        return side * side;
     }
 
     @Override
     public double perimeter() {
-        return 4*side;
+        return 4 * side;
     }
 
     @Override

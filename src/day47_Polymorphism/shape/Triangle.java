@@ -1,7 +1,7 @@
 package day47_Polymorphism.shape;
 
-public class Triangle extends Shape{
-    private  double side1, side2, side3;
+public class Triangle extends Shape {
+    private double side1, side2, side3;
 
     public Triangle(String name, double side1, double side2, double side3) {
         super(name);
@@ -41,6 +41,6 @@ public class Triangle extends Shape{
 
     @Override
     public double perimeter() {
-        return side1+side2+side3;
+        return side1 + side2 + side3;
     }
 }
