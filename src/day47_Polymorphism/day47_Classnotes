@@ -8,7 +8,7 @@ Polymorphism (Many forms): Ability of the objects to take on many forms
 			  Reference type is parent class/interface, and object type is child class
 
 			 *** Reference type decides what can be accessed/called
-                Animal animal = new Dog(); // eat(), drinkWater() can be accessed
+                Animal animal = new Dog(); //Animal =>  eat(), drinkWater() can be accessed
 			  Object type decides which implementation to execute
                 Animal animal = new Dog()    ==> eat() -- eating bone
                 Animal animal = new Cat()    ==> eat() -- eating fish
