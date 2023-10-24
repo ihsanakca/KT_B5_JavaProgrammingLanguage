@@ -1,6 +1,6 @@
 package day47_Polymorphism.shape;
 
-public class Cube extends Shape implements Volume{
+public class Cube extends Shape implements Volume {
     public double side;
 
     public Cube(String name, double side) {
@@ -18,16 +18,16 @@ public class Cube extends Shape implements Volume{
 
     @Override
     public double area() {
-        return 6*side*side;
+        return 6 * side * side;
     }
 
     @Override
     public double perimeter() {
-        return 12*side;
+        return 12 * side;
     }
 
     @Override
     public double volume() {
-        return side*side*side;
+        return side * side * side;
     }
 }
