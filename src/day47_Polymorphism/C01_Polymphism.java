@@ -23,14 +23,14 @@ public class C01_Polymphism {
         animal.drinkWater();
 
         System.out.println("--------------------------");
-        ((Dog)animal).bark();// Explicit casting downcasting
-        ((Dog)animal).play();
+        ((Dog) animal).bark();// Explicit casting downcasting
+        ((Dog) animal).play();
 
         animal = new Cat("Panco", "Golden", 'm', 10, "Medium", "Gold");
         animal.eat();
-        ((Cat)animal).meow();
+        ((Cat) animal).meow();
 
-        Cat cat = new Cat("Bulut","Scottish",'m',4,"Medium","Gray");
+        Cat cat = new Cat("Bulut", "Scottish", 'm', 4, "Medium", "Gray");
         Animal animal1 = cat;
         System.out.println(animal1);
         animal1.eat();

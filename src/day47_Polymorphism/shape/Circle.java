@@ -1,6 +1,6 @@
 package day47_Polymorphism.shape;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
     private double radius;
 
     public final static double PI = Math.PI;
@@ -20,12 +20,12 @@ public class Circle extends Shape{
 
     @Override
     public double area() {
-        return PI*radius*radius;
+        return PI * radius * radius;
     }
 
     @Override
     public double perimeter() {
-        return 2*PI*radius;
+        return 2 * PI * radius;
     }
 
     @Override
