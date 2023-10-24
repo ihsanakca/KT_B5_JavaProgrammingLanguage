@@ -7,6 +7,6 @@ public interface Playable {
         System.out.println("isFriendly = " + isFriendly);
     }
 
-    void play();//abxtract method by default  // must be overritten
+    void play();//abxtract method by default  // must be overwritten
 
 }
