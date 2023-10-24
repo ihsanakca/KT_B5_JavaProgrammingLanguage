@@ -40,6 +40,8 @@ public class C01_Polymphism {
         System.out.println(animal1 instanceof Cat);
         System.out.println(animal1 instanceof Animal);
 
+        System.out.println("----------------------------");
+
 
     }
 
