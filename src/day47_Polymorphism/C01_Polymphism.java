@@ -66,7 +66,10 @@ public class C01_Polymphism {
         Square square = new Square(10);
         System.out.println(square);
 
-        shape=square;
+       shape = square;
+       ((Square) shape).katla();
+
+
         System.out.println(shape);
 
         System.out.println("-------------------------");

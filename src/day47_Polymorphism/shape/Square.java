@@ -21,6 +21,10 @@ public class Square extends Shape {
         setSide(side);
     }
 
+    public void katla(){
+        System.out.println("Kare Katlaniyor");
+    }
+
     @Override
     public double area() {
         return side * side;
