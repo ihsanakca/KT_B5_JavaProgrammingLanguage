@@ -11,12 +11,12 @@ public class Person {
         this.gender = gender;
     }
 
-    public void eat(String food){
-        System.out.println(name+" is eating "+food);
+    public void eat(String food) {
+        System.out.println(name + " is eating " + food);
     }
 
-    public void sleep(){
-        System.out.println(name+" is sleeping");
+    public void sleep() {
+        System.out.println(name + " is sleeping");
     }
 
     @Override
@@ -28,7 +28,6 @@ public class Person {
                 ", gender=" + gender +
                 '}';
     }
-
 
 
 }

@@ -10,10 +10,10 @@ public class Tester extends Employee implements DevTeam {
 
     @Override
     public void coding() {
-        System.out.println(jobTitle+" "+name+" is writing automations with "+programmingLanguage);
+        System.out.println(jobTitle + " " + name + " is writing automations with " + programmingLanguage);
     }
 
-    public void createTicket(){
-        System.out.println(jobTitle+" "+name+" is finding bugs");
+    public void createTicket() {
+        System.out.println(jobTitle + " " + name + " is finding bugs");
     }
 }

@@ -13,7 +13,7 @@ public class ScrumTeam {
 
     public ArrayList<Tester> testers = new ArrayList<>();
 
-    public ArrayList<Developer>developers = new ArrayList<>();
+    public ArrayList<Developer> developers = new ArrayList<>();
 
     public ScrumTeam(ProductManager PM, BusinessAnalyst BA, ScrumMaster SM, ArrayList<Tester> testers, ArrayList<Developer> developers) {
         this.PM = PM;
@@ -23,16 +23,16 @@ public class ScrumTeam {
         this.developers = developers;
     }
 
-    public void addTester(Tester tester){
+    public void addTester(Tester tester) {
         testers.add(tester);
     }
-    public void addTester(Tester[] testers){
+
+    public void addTester(Tester[] testers) {
         this.testers.addAll(Arrays.asList(testers));
     }
 
 
-
-    public void addDeveloper(Developer developers){
+    public void addDeveloper(Developer developers) {
         this.developers.addAll(Arrays.asList(developers));
     }
 

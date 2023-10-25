@@ -28,7 +28,6 @@ public class IBM {
         Developer developer6 = new Developer("Kemal", 25, 'M', 38000, 100014, departmentName, "Phyton");
 
 
-
         ArrayList<Developer> developers = new ArrayList<>(Arrays.asList(developer1, developer2, developer3, developer4, developer5));
         ScrumTeam scrumTeam = new ScrumTeam(pm, ba, sm, testers, developers);
 
@@ -42,10 +41,9 @@ public class IBM {
         System.out.println("--------------------------------");
         for (Developer developer : scrumTeam.developers) {
             System.out.println(developer.name);
-          developer.eat("Steak");
+            developer.eat("Steak");
             System.out.println(developer.jobTitle);
         }
-
 
 
     }

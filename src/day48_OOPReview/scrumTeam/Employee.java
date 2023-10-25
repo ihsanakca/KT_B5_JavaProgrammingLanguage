@@ -1,6 +1,6 @@
 package day48_OOPReview.scrumTeam;
 
-public class Employee extends Person{
+public class Employee extends Person {
 
 
     public String jobTitle;
@@ -25,9 +25,9 @@ public class Employee extends Person{
 //    }
 
     public void setSalary(double salary) {
-        if(salary<15000){
+        if (salary < 15000) {
             System.err.println("Not Enough Salary");
-        }else {
+        } else {
             this.salary = salary;
         }
 
@@ -41,11 +41,9 @@ public class Employee extends Person{
         this.id = id;
     }
 
-    public void work(){
-        System.out.println(jobTitle+" "+ name+" is working");
+    public void work() {
+        System.out.println(jobTitle + " " + name + " is working");
     }
-
-
 
 
     @Override
