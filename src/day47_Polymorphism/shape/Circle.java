@@ -5,8 +5,8 @@ public class Circle extends Shape {
 
     public final static double PI = Math.PI;
 
-    public Circle(String name, double radius) {
-        super(name);
+    public Circle(double radius) {
+        super("Circle");
         this.radius = radius;
     }
 
