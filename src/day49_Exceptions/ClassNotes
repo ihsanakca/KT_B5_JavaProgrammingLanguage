@@ -1,0 +1,20 @@
+What is Exceptions?
+
+1. Compile Time Error
+2. Logical Error
+3. RunTime Error-- exceptions -- must be handle
+
+Statement
+    1. normal statement
+    2. Critical Statement
+
+
+Exception Hierrarcy in Java
+
+            Object Class
+
+            Throwable
+
+    Error           Exception
+            1. Runtime Exceptions                   2. Sql Exception            3.IOexception
+
