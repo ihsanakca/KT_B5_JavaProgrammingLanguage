@@ -1,0 +1,109 @@
+ABSTRACTION
+•	focusing on the essentials without worrying about the small details(implementations) of the method
+
+•	Abstract method:
+	A method without the implementation/body, only signature
+	meant to be overridden
+	public abstract void eat();
+	cannot be static and final
+	cannot have private access modifier
+
+	2 ways to achieve the abstraction:
+				1. Abstract class
+				2. Interface
+
+
+•	Abstract class:
+	meant to be super class (parent)
+	cannot be final
+	Not concrete (cannot create object)
+	can have all the methods, variables, and blocks of non-abstract class
+	can have constructors
+	can have abstract methods [not mandatory]
+
+•	Concrete class:
+	Sub class of abstract class is called concrete class
+	Must implement all the inherited abstract methods
+	Cannot have abstract methods
+	Can be final
+	can have all the methods, variables, and blocks
+	can have constructors
+
+•	Interface
+	Variables are final and static by default
+	Can have static methods, abstract methods and default methods only
+	Public is only access modifier
+	Abstract keyword is default for abstract method
+	We cannot create objects from interface
+
+CLASS
+blueprint of objects
+specifies what the object MUST have
+can be instantiated
+can be final
+
+ABSTRACT CLASS
+meant to be parent
+can have abstract method
+MUST contain the common features of all the subclasses
+cannot be instantiated
+cannot be final
+
+INTERFACE
+blueprint of class
+specifies what the class(es) must have
+to provide additional methods that any class needs
+cannot be instantiated
+cannot be final
+
+
+*	What interface can have?
+	variables: final static variables ONLY
+	methods: abstract method, default method, static method
+	Access modifier: public ONLY
+
+*	What interface cannot have?
+	Instance variable
+	Instance methods
+	Constructor
+	Blocks
+	private, default, protected access modifiers
+
+*	why we need interface?
+	one class can extend one class ONLY
+	one class can implement multiple interfaces
+		   			(Multiple inheritance is allowed)
+	100% abstraction
+
+
+Abstract class vs interface: both are used for achieving abstraction
+							  both can not be instantiated
+							  both can not be final
+							  both are meant to be inherited
+
+
+abstract class: one class can extends one abstract class
+
+		  					can have instances & statics
+
+		  					can have constructor
+
+		  					4 access modifiers
+
+interface: one class can implement multiple interfaces
+
+
+
+extends vs implements: both are used for inheritance
+
+		extends:
+				class extends class
+				interface extends interface(s)
+
+		implements:
+				class implements interface(s)
+
+
+		extends & implements:
+				extends first then implements
+
