@@ -15,7 +15,7 @@ public class C02_Exceptions2 {
             System.out.println(5/x);  // 0 girersek --lang.ArithmeticException: / by zero
 
         }catch (Exception e){
-            System.out.println("Hata alındı"+e);
+            System.out   .println("Hata alındı"+e);
             System.out.println(e.getMessage());
             e.printStackTrace();
         }

@@ -1,0 +1,12 @@
+
+   Collection API  --- Concept tir ve Application Programming Interface
+
+    Collection -- Interface
+    Collections -- Class
+
+
+
+                                Collection
+    List                        Set                                 Queue
+    -ArrayList                  -HashSet                            --DeQueue
+    -LinkedList                 -LinkedHashSet

@@ -9,12 +9,15 @@ Statement
     2. Critical Statement
 
 
-Exception Hierrarcy in Java
+        Exception Hierrarcy in Java
 
             Object Class
 
             Throwable
 
     Error           Exception
-            1. Runtime Exceptions                   2. Sql Exception            3.IOexception
+            1. Runtime Exceptions (unchecked)                  2. Sql Exception            3.IOexception
+            a. Arithmetic Exp.
+            b. NullPointer Exp.
+            c. ArrayIndexOutOfBound Exc.
 
