@@ -9,22 +9,26 @@ public class C03_Iterator {
         set.add(35);
         set.add(6);
         set.add(16);
+        System.out.println(set);
 
 
         // set içerisinden 25 den küçük sayıları silin ve ekrana yazdırın
 
         Iterator<Integer> iterator= set.iterator();
 
-        /*
+        System.out.println(iterator.hasNext());
+/*
         System.out.println(iterator.next());
         System.out.println(iterator.next());
         System.out.println(iterator.next());
         System.out.println(iterator.next());
+    //    System.out.println(iterator.next());
 
         System.out.println(iterator.hasNext());
-        *
+*
 
-         */
+ */
+
         while (iterator.hasNext()){
             Integer sayi = iterator.next();
             if (sayi<25){
