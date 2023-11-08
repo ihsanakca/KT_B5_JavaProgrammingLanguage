@@ -22,3 +22,19 @@ Topics:
                 3.Wrapper Class :    The objects that represent the primitives
                                      Enables us to use primitive data types in Collection, Map
                                      Also have some useful methods
+
+                4. String:      Immutable
+                                "Kraftech"
+                                Methods: length,substring, charAt, tolowercase, touppercase, replace,split
+                                        equals, equalsIgnoreCase,startswith, endswith, concat, trim,isEmpty, isBlank
+                                        indexOf, contains ....
+
+                5. StringBuilder vs StringBuffer:
+                            mutable char sequences()
+                            have reverse() feature
+                            slower than String
+
+                            StringBuilder: Not Syncronised
+                                           faster than StringBuffer
+
+                            StringBuffer: Synchronised
