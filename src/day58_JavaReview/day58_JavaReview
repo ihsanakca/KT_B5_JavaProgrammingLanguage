@@ -38,3 +38,47 @@ Topics:
                                            faster than StringBuffer
 
                             StringBuffer: Synchronised
+
+                6. Loops: for & while
+                           for  :if the number of repetition is known
+                                        for( initialization  ; condition ; increment/decrement   ){
+                                                statements
+                                        }
+
+                                    while: to repeat unknown number of times
+                                    while(condition){
+                                    statement
+                                    }
+
+                                    do-While: executes at least once
+                                    do{
+                                    statements;
+                                    }while(condition)
+
+                                    branching statements:
+                                    break   :    exit the loop (switch)
+                                    continue:    jumps to the next iteration of the loop
+                                    return  :    exits the current method
+
+                7. Arrays:      Data Structure supprting multiple variables
+                                use when multiple data is needed
+                                fast
+                                has index
+                                supports both primitive and non primitive
+                                can be multi dimentional
+                                size is fixed, can not be used with unknown number of data
+
+                8. for each loop : iteration is fixed (from the first element to the last)
+                                   you dont have access to the index numbers, can not reassign values
+
+                9. Custom Methods:   Function
+                                     reusability
+                                     series o f code blocks for a specific purpose/task
+
+                                     public static void/returnDatatype methodName(){
+                                      code performs the task
+                                     }
+                10. Method Overloading:  multiple methods having same name in a class
+                                         Different parameter (number, type)
+                                         reusability
+                                         (static polymorphism)
