@@ -1,0 +1,24 @@
+Day 58 JAVA REVIEW
+
+Topics:
+
+        	    1. Primitives: int, double, char, boolean
+        		2. Primitive Type Castings: Implicit vs Explicit
+        		3. Wrapper class
+        		4. String
+        		5. String vs StringBuilder vs StringBuffer
+        		6. Loops: for & while
+        		7. Arrays
+        		8. for each loop
+        		9. Custom Methods
+        		10. Method Overloading
+
+        		1. Primitives:byte,short,int,long, float, double, char, boolean
+
+                2. Primitive Type Castings: Implicit vs Explicit
+                    a. implicit casting: casting smaller primitive types to larger
+                    b. explicit casting: casting larger primitive types to smaller
+
+                3.Wrapper Class :    The objects that represent the primitives
+                                     Enables us to use primitive data types in Collection, Map
+                                     Also have some useful methods
