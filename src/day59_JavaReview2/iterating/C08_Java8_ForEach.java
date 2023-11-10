@@ -43,9 +43,6 @@ This method is defined in the Iterable interface, and can accept Lambda expressi
 
         Map<String, Integer> goodStudents = new LinkedHashMap<>();
 
-//        goodStudents.values().removeIf(v -> v <= 75);
-        //System.out.println(goodStudents);
-
         students.entrySet().forEach(entry->{
             if(entry.getValue()>=75){
                 goodStudents.put(entry.getKey(), entry.getValue());
