@@ -31,6 +31,5 @@ public class C01_Concatenation {
          System.out.println(x+str+y);
 
 
-
      }
 }

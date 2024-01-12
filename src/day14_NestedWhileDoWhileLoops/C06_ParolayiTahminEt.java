@@ -6,13 +6,13 @@ public class C06_ParolayiTahminEt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String parola = "safak";
-        String tahmin = "";
+       // String tahmin = "";
         int hak = 3;
         System.out.println("Lutfen Parolayi Tahmin Ediniz (toplam 3 hakkiniz bulunmaktadir) : ");
 
 
         while (0 < hak) {
-            tahmin = scanner.nextLine();
+            String tahmin = scanner.nextLine();
             if (tahmin.equalsIgnoreCase(parola)) {
                 System.out.println("Tebrikler. Parolayi bildiniz");
                 break;

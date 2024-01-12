@@ -28,6 +28,7 @@ public class C01_PrimitiveDataTypes {
         System.out.println(worldPopulation);
 
         //byte, short, int, long degiskenlerin default degerleri int
+        //byte, short, int, işlemlerinin sonuç degerleri int
 
     }
 

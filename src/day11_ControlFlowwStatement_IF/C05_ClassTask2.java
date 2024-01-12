@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C05_ClassTask2 {
     public static void main(String[] args) {
         /*
-        hava sıcaklığı isminde bir değişken declere edin ve değer atayın
+        hava sıcaklığı isminde bir değişken declare edin ve değer atayın
         sıcaklık 20 derece üzerinde ise hava sıcak yazsın
         sıcaklık 20 derece ve altında ise hava soğuk yazsın
          */

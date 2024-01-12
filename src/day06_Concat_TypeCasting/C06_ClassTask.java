@@ -10,7 +10,7 @@ public class C06_ClassTask {
 
         int toplamSoruAdedi=60;
         double oran=4;
-        double net=50;
+        double net=51.25;
 
         double yanlisAdet=(toplamSoruAdedi-net)/(1+1/oran);
 

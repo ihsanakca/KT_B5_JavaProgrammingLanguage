@@ -18,10 +18,6 @@ public class C02_MinimumNumber {
         }
 
         System.out.println("min = " + min);
-
-
-
-
     }
 
 }

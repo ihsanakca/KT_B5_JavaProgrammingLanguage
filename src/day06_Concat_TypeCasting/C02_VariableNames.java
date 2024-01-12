@@ -28,6 +28,9 @@ public class C02_VariableNames {
 
         System.out.println(age);
 
+        int süper=98;  //türkçe karakter kullanmayalım..
+        System.out.println("süper = " + süper);
+
 
     }
 }

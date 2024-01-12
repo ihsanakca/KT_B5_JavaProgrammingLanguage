@@ -43,14 +43,42 @@ public class C02_If_Switch_Ternary {
             default:
                 System.out.println("Gecersiz Harf");
         }
-
+        // breakleri yoruma al ve farkı gör...
         System.out.println("-----------------------------------");
 //          ternary
 //           (condition ) ? (return if true) : (return if false)
 //           (condition ) ? (return if true) : (new Ternary)
-        String result = (harf == 'p' || harf == 'P') ? "Pazar, Pazartesi, Persembe" : ((harf == 's' || harf == 'S') ? "Sali"
-                : (harf == 'c' || harf == 'C') ? ("Carsamba, Cuma, Cumartesi") : ("Gecersiz Harf"));
+        String result = (harf == 'p' || harf == 'P')
+                ? "Pazar, Pazartesi, Persembe"
+                : ((harf == 's' || harf == 'S')
+                ? "Sali"
+                : (harf == 'c' || harf == 'C')
+                ? ("Carsamba, Cuma, Cumartesi")
+                : ("Gecersiz Harf"));
         System.out.println("result = " + result);
 
+
+        System.out.println("-----------------------------------");
+
+
+        int outerSwitch = 1;
+        int innerSwitch = 2;
+
+        switch (outerSwitch) {
+            case 1 -> {
+                System.out.println("Outer switch case 1");
+                switch (innerSwitch) {
+                    case 1 -> System.out.println("Inner switch case 1");
+                    case 2 -> System.out.println("Inner switch case 2");
+                    default -> System.out.println("Inner switch default case");
+                }
+            }
+            case 2 -> System.out.println("Outer switch case 2");
+            default -> System.out.println("Outer switch default case");
+        }
     }
 }
+
+
+
+
