@@ -3,6 +3,10 @@ package day17_Methods;
 public class C04_Methods_Intro {
 
     public static void main(String[] args) {
+
+        String name="Ahmet";
+        name=name.toUpperCase();
+        System.out.println("name = " + name);
         sayHi();
         System.out.println("Program başladı");
         sayHi();
@@ -13,6 +17,9 @@ public class C04_Methods_Intro {
 
     public static void sayHi(){
         System.out.println("Hi");
+        String name="Ali";
+        name=name.toLowerCase();
+        System.out.println("name = " + name);
     }
 
 

@@ -17,6 +17,8 @@ helloName("X") → "Hello X!"
         //System.out.println(helloName(14, "Ali"));
         helloName2("Ayşe");
 
+
+
     }
 
     public static String helloName(String greetings, String name, int num) {
