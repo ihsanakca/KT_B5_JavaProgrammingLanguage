@@ -10,7 +10,7 @@ public class C02_IsEmpty {
         System.out.println("str1.isEmpty() = " + str1.isEmpty());
         System.out.println("str1.isBlank() = " + str1.isBlank());
 
-        str1="";
+        str1=" ";
         System.out.println("str1.isEmpty() = " + str1.isEmpty());
         System.out.println("str1.isBlank() = " + str1.isBlank());
     }

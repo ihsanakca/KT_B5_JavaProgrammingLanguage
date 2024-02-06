@@ -26,7 +26,7 @@ public class C02_StringIntro {
         bl = str1==str4; //  false cunku farkli objeler, referanslar
         System.out.println(bl);
 
-        bl=str1.equals(str4); // referans karsilastirilmiyor, farkli obje lup olmamasi ilgilenmiyor,
+        bl=str1.equals(str4); // referans karsilastirilmiyor, farkli obje olup olmamasi ilgilenmiyor,
                               // sadece icerik karsilastiriliyor
         System.out.println(bl);
 

@@ -1,5 +1,7 @@
 package day21_Class_And_Methods;
 
+import day54_OOPandCollectionReview.car;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -105,6 +107,36 @@ public class Main {
         mehmet.name="mustafa";
 
         System.out.println("ahmet.name = " + ahmet.name);
+
+        Car car1=new Car();
+        car1.marka="Honda";
+        car1.model="Jazz";
+        car1.renk="Beyaz";
+        car1.hız=180;
+
+        car1.calistir();
+        car1.hızlan();
+        car1.dur();
+
+        System.out.println("----------");
+
+        Car car2=new Car();
+        car2.marka="Mercedes";
+        car2.model="E200d";
+        car2.renk="Beyaz";
+        car2.hız=180;
+
+        car2.calistir();
+        car2.hızlan();
+        car2.dur();
+
+        Car.tekerSayisi=4;
+
+        System.out.println("car1.tekerSayisi = " + car1.tekerSayisi);
+        System.out.println("car2.tekerSayisi = " + car2.tekerSayisi);
+        System.out.println("Car.tekerSayisi = " + Car.tekerSayisi);
+
+
 
 /*
 

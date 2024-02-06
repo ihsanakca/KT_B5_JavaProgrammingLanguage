@@ -1,7 +1,5 @@
 package day26_String_Lab;
 
-import java.util.Locale;
-
 public class C01_String_Lab {
 
 
@@ -92,17 +90,47 @@ public class C01_String_Lab {
         return str.substring(start,end+1);
     }
 
+    public static String trim_2(String str){
+        return str.replaceAll("^\\s+|\\s+$", "");
+    }
+
 
 
     //Kullanıcıdan bir kelime alın ve her harfini 3 defa yazdırın.
     //Merhaba MMMeeerrrhhhaaabbbaaa Ali AAAllliii
 
-    public static String repeat(String str, int adet){
+    public static String tekrarla(String str, int adet){
         String result="";
+
         for (int i = 0; i < str.length(); i++) {
             for (int j = 0; j < adet; j++) {
                 result+=str.charAt(i);
             }
+        }
+        return result;
+    }
+    public static String tekrarla(String str){
+        String result="";
+        for (int i = 0; i < str.length(); i++) {
+            for (int j = 0; j < 3; j++) {
+                result+=str.charAt(i);
+            }
+        }
+        return result;
+    }
+
+    public static String tekrarla_2(String str){
+        String result="";
+        for (int i = 0; i < str.length(); i++) {
+            result+=""+str.charAt(i)+str.charAt(i)+str.charAt(i);
+        }
+        return result;
+    }
+
+    public static String tekrarla_3(String str,int adet){
+        String result="";
+        for (int i = 0; i < str.length(); i++) {
+            result+=str.substring(i,i+1).repeat(adet);
         }
         return result;
     }
@@ -196,6 +224,9 @@ public class C01_String_Lab {
 
         System.out.println(cokluYazdır(str, yeni,3,15,5));
         // System.out.println(trim(str));
+        System.out.println("tekrarla(str) = " + tekrarla(str));
+        System.out.println("tekrarla_2(str) = " + tekrarla_2(str));
+        System.out.println("tekrarla_3(str,5) = " + tekrarla_3(str, 3));
 
     }
 

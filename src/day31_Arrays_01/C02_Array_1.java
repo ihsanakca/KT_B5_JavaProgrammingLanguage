@@ -1,5 +1,7 @@
 package day31_Arrays_01;
 
+import day21_Class_And_Methods.Car;
+
 import java.util.Scanner;
 
 public class C02_Array_1 {
@@ -31,6 +33,8 @@ public class C02_Array_1 {
 
         System.out.println("str[0] = " + str[0]);
         System.out.println("str[3] = " + str[3]);
+        //index fazla olursa runtime hatası verir..
+
 
 
         int [] arr1;
@@ -57,6 +61,7 @@ public class C02_Array_1 {
         int [] arr4={23,65,78,98};
 
 
+
         //2 değer alan int türünde bir array oluşturun
         // değer atayın sonra ve bu iki değeri
         // toplayın ve ekrna yazdırın
@@ -66,9 +71,32 @@ public class C02_Array_1 {
         array[1]=32;
         System.out.println(array[0]+array[1]);
 
+        //boyunu alalalım
+        int length = array.length;
+        System.out.println("length = " + length);
+
         String hi="merhaba";
 
 
+
+        Car car = new Car();
+        car.model="Toyota";
+
+        Object [] objects = {"Ali",2,car,new Scanner(System.in),new Car(),6.8};
+
+        for (Object object : objects) {
+            System.out.println("object.getClass() = " + object.getClass());
+        }
+
+        //atanmayanlara default değer atar
+        char z [] = new char [5];
+        z[0] = '2';
+        z[4] = 'a';
+        for (char i : z) {
+            System.out.print (i+"-");
+
+
+        }
 
     }
 }

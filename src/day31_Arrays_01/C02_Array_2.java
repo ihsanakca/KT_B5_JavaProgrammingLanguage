@@ -67,6 +67,14 @@ public class C02_Array_2 {
         for (String name:str) {
             System.out.println(name+" çalışkan bir öğrencidir");
         }
+
+        for (String s : str) {
+            if (s.equals("Atakan")){
+                System.out.println("Atakan burada");
+                break;
+            }
+            System.out.println("s = " + s);
+        }
     }
 
 

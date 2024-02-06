@@ -11,6 +11,7 @@ public class Car {
     public String model;
     public String renk;
     public int hız;
+    public static int tekerSayisi;
 
     public boolean isElectrical;
 
