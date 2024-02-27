@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
 
+
         FinalExample finalExample=new FinalExample();
         System.out.println(finalExample.method(5));
       //  finalExample.X=100;

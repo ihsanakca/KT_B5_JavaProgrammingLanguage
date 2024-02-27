@@ -42,6 +42,19 @@ public class C03_ArrayList2 {
         arrList3.removeAll(arrList4);
         System.out.println("arrList3 = " + arrList3);
 
+        // removeIf
+        ArrayList<String> newList=new ArrayList<>();
+        newList.add("Burcu");
+        newList.add("Ömer");
+        newList.add("Emre");
+        newList.add("Ahmet");
+        newList.add("Yusuf");
+        newList.add("Burcu");
+        newList.add("Ömer");
+        newList.add("Emre");
+
+        newList.removeIf(element -> element.length() ==4);
+        System.out.println("newList = " + newList);
 
     }
 }

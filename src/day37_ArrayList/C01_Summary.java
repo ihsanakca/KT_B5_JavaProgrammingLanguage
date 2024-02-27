@@ -65,9 +65,6 @@ public class C01_Summary {
                 return false;
             }
         }
-
-
-
      return true;
     }
 

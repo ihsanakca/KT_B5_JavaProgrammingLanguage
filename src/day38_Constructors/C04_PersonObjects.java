@@ -20,6 +20,7 @@ public class C04_PersonObjects {
         System.out.println(person2);
 
         Person person3 = new Person();
+        System.out.println("person3 = " + person3);
 
 
 //

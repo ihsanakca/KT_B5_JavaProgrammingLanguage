@@ -28,9 +28,10 @@ public class C03_WrapperClass_Characters {
 
 //        String değer içindeki gömülü cümleyi çıkartın
 
-        String str2 ="|''11'*>>///M++>,,_//*e%%&/'-~~&&r//%<>/)h*>%//'9a+%^^^((b*><###a678* +%&&/))<+J>>>" +
-                ">**56a##v**||;;;~~a~>>> 4500001||<<İ**##n**--//+%^^s>><<|*478a12%%n*" +
-                "*-<<|||>>012345l679--a**//##++34r``~~((ı[234]+||";
+        String str2 ="|''11'*>>///M++>,,_//*e%%&/'-~~&&r//%<" +
+                ">/)h*>%//'9a+%^^^((b*><###a678* +%&&/))<+J>>>>**56a##v**||" +
+                ";;;~~a~>>> 4500001||<<İ**##n**--//+%^^s>><<|*478a12%%n**-<<|||>>01" +
+                "2345l679--a**//##++34r``~~((ı[234]+||";
         String result2="";
 
         for (int i = 0; i < str2.length(); i++) {
@@ -53,7 +54,6 @@ public class C03_WrapperClass_Characters {
                 karakter+=str2.charAt(i);
             }
         }
-
 
         System.out.println("harf = " + harf);
         System.out.println("sayilar = " + sayilar);

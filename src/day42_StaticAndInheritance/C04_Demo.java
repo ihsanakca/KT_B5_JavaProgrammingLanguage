@@ -21,6 +21,8 @@ public class C04_Demo {
 
         //    C03_Calculator obj=new C03_Calculator();
 
+        C05_AdvanceCalculator advanceCalculator = new C05_AdvanceCalculator();
+        System.out.println(advanceCalculator.num);
 
     }
 

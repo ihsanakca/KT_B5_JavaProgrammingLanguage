@@ -33,6 +33,20 @@ public class C07_MultiDimArrays {
             System.out.println();
         }
 
+        int [] [] [] sayilar ={{{2,2}, {3,8}, {6}, {5}},{{1,3}, {15,99}, {18,5}},{{25,5}, {23,6}, {36,88}}};
+
+        System.out.println(Arrays.deepToString(sayilar));
+        System.out.println("sayilar.length = " + sayilar.length);
+
+        for (int[][] ints : sayilar) {
+            for (int[] anInt : ints) {
+                for (int i : anInt) {
+                    System.out.print (i+" ");
+                }
+                System.out.print("----");
+            }
+            System.out.println();
+        }
 
     }
 }

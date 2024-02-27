@@ -6,6 +6,8 @@ public class C02_WrapperClass_Methods {
 
         String s="123";
        // System.out.println(s*3);  bunu kabul etmez
+        System.out.println("Integer.valueOf(s) = " + Integer.valueOf(s,4));
+        Integer s1=Integer.valueOf(s);
         Integer x = Integer.valueOf(123);     // Integer döndürür ve objedir
         System.out.println("x = " + x);
         System.out.println(x*2);
@@ -23,11 +25,11 @@ public class C02_WrapperClass_Methods {
         int num2 = num1.intValue();
         System.out.println("num2 = " + num2);
 
-/*
-        String str="Bugün hava 25 derece";
+
+        String str1="Bugün hava 25 derece";
         // hava sıcaklığı 10 derece daha artarsa sıcaklık kaç derece olur?
 
-        String[] strArray = str.split(" ");
+        String[] strArray = str1.split(" ");
         System.out.println( strArray[2]);
 
         int result = Integer.parseInt(strArray[2])+10;
@@ -58,7 +60,7 @@ public class C02_WrapperClass_Methods {
         }
 
 
-*/
+
 
 
 
@@ -66,11 +68,11 @@ public class C02_WrapperClass_Methods {
         //"Ali'nin doğum yılı 1996" ise 10 yıl sonra ali kaç yaşında olur?
 
 
-        String str="Ali'nin doğum yılı 1996";
-        String[] strArrayName = str.split("'");
+        String strName="Ali'nin doğum yılı 1996";
+        String[] strArrayName = strName.split("'");
         String name = strArrayName[0];
         String yil = strArrayName[1].split(" ")[3];// "nin doğum yılı 1996"
-        String yil2 = str.split(" ")[3];
+        String yil2 = strName.split(" ")[3];
 
         System.out.println("yil = " + yil);
         int onyilSonrakiYas = 2023-Integer.parseInt(yil2) + 10;

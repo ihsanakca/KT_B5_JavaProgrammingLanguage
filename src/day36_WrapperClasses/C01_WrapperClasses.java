@@ -3,7 +3,7 @@ package day36_WrapperClasses;
 public class C01_WrapperClasses {
     public static void main(String[] args) {
         int x=5;
-       //Integer y=new Integer(10);
+      // Integer y=new Integer(10);
         Integer y=5;
         String str="Merhaba";
 
@@ -26,7 +26,7 @@ public class C01_WrapperClasses {
         System.out.println("Double.max(34,23) = " + Double.max(34.9, 23.9));
         System.out.println("Double.sum(23,34) = " + Double.sum(23, 34));
 
-     //   Short s=new Short((short) 100);
+      //  Short s=new Short((short) 100);
         Short s= 100;
      //   Byte b=new Byte((byte) 111);
 

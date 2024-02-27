@@ -33,6 +33,16 @@ public class C04_ArrayTasks {
         System.out.println(toIntList(arrList2).get(0)+22);
 
 
+        ArrayList<Integer> rakamList = new ArrayList<>();
+        rakamList.add(1);
+        rakamList.add(2);
+        rakamList.add(3);
+        rakamList.add(4);
+        rakamList.add(5);
+
+
+
+        System.out.println("kayanList(rakamList,4) = " + kayanList(rakamList, 7));
 
 
     }
@@ -89,6 +99,19 @@ public class C04_ArrayTasks {
         return arrIntList;
     }
 
+    public static ArrayList<Integer> kayanList(ArrayList<Integer> sayilar, int kaymaMiktari){
+        kaymaMiktari = kaymaMiktari % sayilar.size();
+        ArrayList<Integer> kynList =new ArrayList<>(sayilar.size());
+        for (int i = 0; i < kaymaMiktari; i++) {
+            sayilar.add(i, sayilar.get(sayilar.size()-(kaymaMiktari-i)));
+            sayilar.remove(sayilar.size()-(kaymaMiktari-i));
+            kynList=sayilar;
+
+        }
+        return kynList;
+
+    }
+
     //
     //ödev
     // yeni bir arrayList oluşturun içerisine 5 adet sayı ekleyin
@@ -97,5 +120,6 @@ public class C04_ArrayTasks {
 
 
     //ArrayList<Integer> myList = getList(20);//return method System.out.println(myList); ödev
+    // 20 ye kadar olan sayıları liste atsın...
     //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 }

@@ -31,7 +31,7 @@ public class C02_Main_Static {
         Class.forName("day42_StaticAndInheritance.C01_Mobile_Static"); // class load eden method otomatik olarak sadece static bloğu çalıştırı
 
         C01_Mobile_Static obj5=new C01_Mobile_Static();
-        C01_Mobile_Static obj6=new C01_Mobile_Static();
+       C01_Mobile_Static obj6=new C01_Mobile_Static();
     }
 
 }

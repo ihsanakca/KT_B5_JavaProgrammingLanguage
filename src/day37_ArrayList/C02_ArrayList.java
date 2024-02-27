@@ -35,6 +35,10 @@ public class C02_ArrayList {
         // remove()
         arrList.remove(1);  // [Burcu, Ömer, Emre]
         System.out.println("arrList = " + arrList);
+     //   arrList.remove("Burcu");
+     //   System.out.println("arrList = " + arrList);
+       // System.out.println("arrList.remove(nnn) = " + arrList.remove("Ömer6"));
+        //index ile silerken sildiğini, object ile silerken varsa true yoksa false yaparak siler ya da silmez
 
         // set() --- veri değiştirmek istersek kullanırız
         arrList.set(0,"Ahmet");// [Ahmet, Ömer, Emre]
