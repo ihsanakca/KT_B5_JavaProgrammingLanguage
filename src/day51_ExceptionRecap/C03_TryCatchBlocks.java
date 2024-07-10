@@ -49,9 +49,9 @@ public class C03_TryCatchBlocks {
         System.out.println("Test4 started");
 
         try{
-        Thread.sleep(2000);
+        Thread.sleep(-2000);
         }
-        catch (InterruptedException e){
+        catch (Exception e){
             System.out.println("Catch Block ");
             System.out.println(e.getMessage());
         }

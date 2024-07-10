@@ -20,6 +20,6 @@ public class C01_Primitives {
         int k = (int)j; // explicit casting
 
 
-
+        // var'ı unutma
     }
 }

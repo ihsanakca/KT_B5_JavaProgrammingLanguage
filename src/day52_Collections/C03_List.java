@@ -1,5 +1,7 @@
 package day52_Collections;
 
+import day39_ConstructorOverloading_Encapsulation.Student;
+
 import java.util.*;
 
 public class C03_List {
@@ -42,6 +44,22 @@ public class C03_List {
         ((Stack)list4).pop();  //LIFO
         System.out.println(list4);
         System.out.println("((Stack)list4).peek() = " + ((Stack) list4).peek());
+
+        Stack<Integer> list5 = new Stack<>();
+       list5.push(11);
+       list5.push(15);
+       list5.push(110);
+       list5.push(1210);
+       list5.push(211);
+       list5.push(11);
+
+        System.out.println("list5 = " + list5);
+
+        System.out.println("list5.pop() = " + list5.pop());
+
+        System.out.println("list5 = " + list5);
+
+        System.out.println("list5.peek() = " + list5.peek());
 
 
     }

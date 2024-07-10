@@ -18,6 +18,7 @@ public class C04_Collection_Sort {
 
         System.out.println(list);
 
+      //  Integer max = Collections.max(list);
     }
 
     public static int max(List<Integer> list){

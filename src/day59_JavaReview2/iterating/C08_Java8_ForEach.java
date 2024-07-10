@@ -41,15 +41,28 @@ This method is defined in the Iterable interface, and can accept Lambda expressi
 //        students.keySet().removeIf(k-> k.startsWith("H"));
 //        System.out.println(students);
 
+        Set<Map.Entry<String, Integer>> entries = students.entrySet();
+
+
         Map<String, Integer> goodStudents = new LinkedHashMap<>();
 
         students.entrySet().forEach(entry->{
-            if(entry.getValue()>=75){
+            if(entry.getValue()>=80){
                 goodStudents.put(entry.getKey(), entry.getValue());
             }
             } );
 
         System.out.println("goodStudents = " + goodStudents);
+
+        Map<String, Integer> goodStudents2 = new LinkedHashMap<>();
+
+        students.forEach((key, value) -> {
+            if (value >= 80) {
+                goodStudents2.put(key, value);
+            }
+        });
+
+        System.out.println("goodStudents2 = " + goodStudents2);
 
 
     }

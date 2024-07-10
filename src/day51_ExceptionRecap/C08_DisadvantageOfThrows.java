@@ -6,7 +6,7 @@ public class C08_DisadvantageOfThrows {
 
         System.out.println("Hello");
 
-        sleep(2.1);
+        sleep(5.1);
 
         System.out.println("Hello");
 

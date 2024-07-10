@@ -1,7 +1,7 @@
 package day56_LoopsAndMap;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Stream;
 
 public class C01_Loops_List {
 
@@ -13,7 +13,7 @@ public class C01_Loops_List {
         4. forEach()
 
 
-
+*/
         String [] arr={"Burcu","Samet","Osman"};
 
         for ( String str: arr ) {
@@ -23,8 +23,13 @@ public class C01_Loops_List {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
-*/
 
+//        boolean bl = Arrays.stream(arr).anyMatch(e->e.equals("Osman"));
+//        System.out.println("bl = " + bl);
+//
+//        Stream<String> filter = Arrays.stream(arr).filter(e -> e.equals("Osman"));
+//        System.out.println("**");
+//        filter.forEach(System.out::println);
 
 
         List<Integer> list=new ArrayList<>();
@@ -67,7 +72,19 @@ public class C01_Loops_List {
         System.out.println(list);
         */
 
+        //palindrome olanları sil..sorusu..
 
+
+        Set<String> set = new HashSet<>();
+        set.add("21");
+        set.add("100");
+        set.add("10");
+        set.add("108");
+        set.add("1512");
+
+        for (String s : set) {
+            System.out.println("s = " + s);
+        }
 
 
     }
